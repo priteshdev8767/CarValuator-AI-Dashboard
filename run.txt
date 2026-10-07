@@ -1,0 +1,35 @@
+cd "c:\Users\prite\OneDrive\Desktop\ML Project 2nd"
+
+pip install -r requirements.txt
+
+python train.py
+
+python eda.py
+
+python -m streamlit run app.py
+
+
+1. Installation
+
+On Windows, open PowerShell in your project folder and run:
+
+  pip install -r requirements.txt
+
+
+2. Training
+
+  python train.py
+
+This trains all models and saves them.
+
+
+3. EDA
+
+  python eda.py
+
+This generates all plots and saves them.
+
+
+4. Run App
+
+  streamlit run app.py
